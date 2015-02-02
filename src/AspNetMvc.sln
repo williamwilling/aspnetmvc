@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetMvc.LayoutView", "Asp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetMvc.ViewStart", "AspNetMvc.ViewStart\AspNetMvc.ViewStart.csproj", "{FEC02DAB-9DBC-4A0B-8BF7-5B546BA262A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetMvc.Model", "AspNetMvc.Model\AspNetMvc.Model.csproj", "{83200809-8A77-44DA-8182-6B18242C9254}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +42,10 @@ Global
 		{FEC02DAB-9DBC-4A0B-8BF7-5B546BA262A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEC02DAB-9DBC-4A0B-8BF7-5B546BA262A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEC02DAB-9DBC-4A0B-8BF7-5B546BA262A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83200809-8A77-44DA-8182-6B18242C9254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83200809-8A77-44DA-8182-6B18242C9254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83200809-8A77-44DA-8182-6B18242C9254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83200809-8A77-44DA-8182-6B18242C9254}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

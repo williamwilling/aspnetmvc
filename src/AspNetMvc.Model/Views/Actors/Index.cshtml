@@ -1,0 +1,8 @@
+﻿<h1>Actors</h1>
+
+<ul>
+  @foreach (var actor in Model)
+  {
+    <li>@actor.FirstName @actor.LastName (@actor.Nationality)</li>
+  }
+</ul>

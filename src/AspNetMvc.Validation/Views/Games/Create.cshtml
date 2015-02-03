@@ -1,0 +1,24 @@
+﻿@model GameViewModel
+
+<form method="post">
+  @Html.ValidationSummary()
+
+  <p>
+    @Html.LabelFor(m => m.PlayerOne)
+    @Html.TextBoxFor(m => m.PlayerOne)
+  </p>
+
+  <p>
+    @Html.LabelFor(m => m.PlayerTwo)
+    @Html.TextBoxFor(m => m.PlayerTwo)
+  </p>
+
+  <p>
+    @Html.LabelFor(m => m.Rounds)
+    @Html.EditorFor(m => m.Rounds)
+  </p>
+
+  <p>
+    <input type="submit" value="Start the game">
+  </p>
+</form>

@@ -1,0 +1,12 @@
+﻿<ul>
+  @foreach (var alien in Model)
+  {
+    <li>
+      <a href="@Url.Action("Details", new { id = alien.Id })">
+        @alien.Name
+      </a>
+    </li>
+  }
+</ul>
+
+<p><a href="@Url.Action("Create")">Sprout a new alien</a></p>

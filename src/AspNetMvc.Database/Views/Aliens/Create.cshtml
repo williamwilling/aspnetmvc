@@ -1,0 +1,24 @@
+﻿@model Alien
+
+<form method="post">
+  @Html.ValidationSummary()
+
+  <p>
+    @Html.LabelFor(m => m.Name)
+    @Html.TextBoxFor(m => m.Name)
+  </p>
+
+  <p>
+    @Html.LabelFor(m => m.HomePlanet)
+    @Html.TextBoxFor(m => m.HomePlanet)
+  </p>
+
+  <p>
+    @Html.LabelFor(m => m.NumberOfEyes)
+    @Html.EditorFor(m => m.NumberOfEyes)
+  </p>
+
+  <p>
+    <input type="submit" value="Make first contact">
+  </p>
+</form>

@@ -28,6 +28,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetMvc.Validation", "Asp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetMvc.Database", "AspNetMvc.Database\AspNetMvc.Database.csproj", "{FAFAE9A7-6DB3-4D75-91B5-7607F984F980}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetMvc.DropDownList", "AspNetMvc.DropDownList\AspNetMvc.DropDownList.csproj", "{D59D6C6E-A74F-4854-BB51-5BD634861A9B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -70,6 +72,10 @@ Global
 		{FAFAE9A7-6DB3-4D75-91B5-7607F984F980}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAFAE9A7-6DB3-4D75-91B5-7607F984F980}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAFAE9A7-6DB3-4D75-91B5-7607F984F980}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D59D6C6E-A74F-4854-BB51-5BD634861A9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D59D6C6E-A74F-4854-BB51-5BD634861A9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D59D6C6E-A74F-4854-BB51-5BD634861A9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D59D6C6E-A74F-4854-BB51-5BD634861A9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
